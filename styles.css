@@ -33,7 +33,7 @@ a:focus-visible {
 }
 
 .page {
-  width: min(100% - 40px, 860px);
+  width: min(100% - 40px, 820px);
   margin: 0 auto;
   padding: 42px 0 30px;
 }
@@ -45,9 +45,9 @@ a:focus-visible {
 }
 
 .portrait-ring {
-  flex: 0 0 220px;
-  width: 220px;
-  height: 220px;
+  flex: 0 0 190px;
+  width: 190px;
+  height: 190px;
   padding: 8px;
   border: 3px solid #8b8b8b;
   border-radius: 50%;
@@ -70,7 +70,7 @@ a:focus-visible {
 
 h1 {
   margin: 0 0 7px;
-  font-size: clamp(2rem, 5vw, 2.55rem);
+  font-size: clamp(1.9rem, 5vw, 2.3rem);
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: -0.025em;
@@ -91,10 +91,12 @@ h1 {
 
 .profile-links a {
   display: inline-flex;
-  width: 25px;
-  height: 25px;
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   color: #555555;
   transition: color 150ms ease, transform 150ms ease;
 }
@@ -105,8 +107,12 @@ h1 {
 }
 
 .profile-links svg {
-  width: 24px;
-  height: 24px;
+  display: block;
+  width: 20px !important;
+  max-width: 20px;
+  height: 20px !important;
+  max-height: 20px;
+  flex: 0 0 20px;
   fill: currentColor;
 }
 
@@ -145,24 +151,24 @@ hr {
   grid-template-columns: 37% 1fr;
   gap: 25px;
   align-items: center;
-  min-height: 240px;
-  padding: 17px;
+  min-height: 215px;
+  padding: 15px;
   overflow: hidden;
   border-radius: 16px;
   background: #ffffff;
-  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.2);
   transition: box-shadow 170ms ease, transform 170ms ease;
 }
 
 .project-card:hover {
-  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.23);
   transform: translateY(-1px);
 }
 
 .project-image {
   display: block;
   width: 100%;
-  height: 205px;
+  height: 180px;
   border-radius: 8px;
   background: #f2f4f7;
   object-fit: cover;
@@ -299,9 +305,9 @@ footer {
   }
 
   .portrait-ring {
-    flex-basis: 165px;
-    width: 165px;
-    height: 165px;
+    flex-basis: 150px;
+    width: 150px;
+    height: 150px;
   }
 
   .project-card {
@@ -322,9 +328,9 @@ footer {
   }
 
   .portrait-ring {
-    flex-basis: 180px;
-    width: 180px;
-    height: 180px;
+    flex-basis: 160px;
+    width: 160px;
+    height: 160px;
   }
 
   .profile-links {
