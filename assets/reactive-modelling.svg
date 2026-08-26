@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="title desc">
+  <title id="title">Reactive underground hydrogen storage processes</title>
+  <desc id="desc">Hydrogen and natural gas regions mix through brine and porous rock while microbial reactions consume hydrogen.</desc>
+  <rect width="720" height="430" fill="#fff"/>
+  <rect x="0" y="45" width="360" height="385" fill="#34789c"/>
+  <rect x="360" y="45" width="360" height="385" fill="#a75558"/>
+  <g font-family="Arial,sans-serif" font-size="18" fill="#111">
+    <circle cx="28" cy="22" r="12" fill="#34789c"/><text x="44" y="28">Hydrogen</text>
+    <circle cx="150" cy="22" r="12" fill="#a75558"/><text x="166" y="28">Natural Gas</text>
+    <circle cx="286" cy="22" r="12" fill="#00d5df"/><text x="302" y="28">Brine</text>
+    <circle cx="381" cy="22" r="12" fill="#050505"/><text x="397" y="28">Rock</text>
+    <circle cx="463" cy="22" r="12" fill="#0c6a58"/><circle cx="486" cy="22" r="12" fill="#be8c09"/><text x="502" y="28">Bacteria</text>
+  </g>
+  <path d="M355 185c-39 5-51 23-31 35m41-35c39 5 51 23 31 35" fill="none" stroke="#111" stroke-width="5"/>
+  <path d="m320 220-3-13 13 4m70 9 3-13-13 4" fill="#111"/>
+  <text x="287" y="171" font-family="Arial,sans-serif" font-size="24" fill="#222">Mixing Zone</text>
+
+  <g>
+    <circle cx="190" cy="122" r="74" fill="#00d5df" stroke="#bbb" stroke-width="5"/>
+    <circle cx="530" cy="122" r="74" fill="#00d5df" stroke="#bbb" stroke-width="5"/>
+    <circle cx="190" cy="327" r="89" fill="#050505" stroke="#111" stroke-width="5"/>
+    <circle cx="530" cy="327" r="89" fill="#050505" stroke="#111" stroke-width="5"/>
+  </g>
+  <g fill="#34789c">
+    <path d="M120 286c41-42 96-49 141-17v75c-56-21-92 18-141-3Z"/>
+    <path d="M463 287c34-36 92-51 137-18v75c-54-20-94 16-137-3Z"/>
+  </g>
+  <g fill="#00d5df">
+    <ellipse cx="160" cy="311" rx="18" ry="9"/><ellipse cx="210" cy="289" rx="21" ry="10"/><ellipse cx="232" cy="338" rx="19" ry="9"/>
+    <ellipse cx="503" cy="310" rx="18" ry="9"/><ellipse cx="551" cy="291" rx="21" ry="10"/><ellipse cx="574" cy="340" rx="19" ry="9"/>
+  </g>
+  <g fill="#0c6a58">
+    <ellipse cx="155" cy="118" rx="5" ry="15"/><ellipse cx="178" cy="121" rx="5" ry="16"/><ellipse cx="202" cy="119" rx="5" ry="15"/><ellipse cx="226" cy="122" rx="5" ry="16"/>
+    <ellipse cx="494" cy="118" rx="5" ry="15"/><ellipse cx="518" cy="121" rx="5" ry="16"/><ellipse cx="542" cy="119" rx="5" ry="15"/><ellipse cx="566" cy="122" rx="5" ry="16"/>
+  </g>
+  <g font-family="Arial,sans-serif" fill="#111" text-anchor="middle">
+    <text x="190" y="96" font-size="16">SO₄²⁻ + 4H₂ → S²⁻ + 4H₂O</text>
+    <text x="530" y="96" font-size="16">CO₂ + 4H₂ → CH₄ + 2H₂O</text>
+  </g>
+  <g fill="none" stroke="#111" stroke-width="4">
+    <path d="M64 242c35-34 64-36 86-14"/><path d="M656 242c-35-34-64-36-86-14"/>
+  </g>
+</svg>

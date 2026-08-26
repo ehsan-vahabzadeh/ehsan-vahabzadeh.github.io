@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="title desc">
+  <title id="title">Gaussian Process active learning</title>
+  <desc id="desc">A family of posterior function samples with observations, uncertainty bars, and a posterior mean.</desc>
+  <rect width="720" height="470" fill="#f2f1f7"/>
+  <g stroke="#fff" stroke-width="1" opacity=".85">
+    <path d="M70 45v365M195 45v365M320 45v365M445 45v365M570 45v365M695 45v365"/>
+    <path d="M70 95h625M70 175h625M70 255h625M70 335h625M70 410h625"/>
+  </g>
+  <g fill="none" stroke="#69a9ca" stroke-width="1" opacity=".24">
+    <path d="M70 302C145 268 126 143 195 239S274 374 320 159s74-21 125 77 75 178 125 27 86-106 125-10"/>
+    <path d="M70 326C136 276 150 86 195 231s82 116 125-79 86 12 125 90 68 156 125 3 94-96 125-1"/>
+    <path d="M70 286C126 326 160 124 195 247s85 86 125-91 90 44 125 82 79 152 125 16 85-79 125-7"/>
+    <path d="M70 344C142 238 158 159 195 245s76 159 125-94 94 64 125 94 69 134 125 2 85-65 125 14"/>
+    <path d="M70 277C131 362 155 91 195 238s91 101 125-87 71-3 125 101 86 106 125-5 89-96 125 2"/>
+    <path d="M70 314C137 288 161 114 195 244s80 126 125-92 89 26 125 91 75 147 125 4 87-90 125 8"/>
+    <path d="M70 295C127 334 149 120 195 240s88 141 125-86 88 18 125 85 72 160 125 12 93-92 125 6"/>
+    <path d="M70 350C144 201 160 198 195 246s78 172 125-95 96 82 125 90 67 123 125 4 82-63 125 24"/>
+    <path d="M70 264C126 391 156 57 195 232s92 114 125-78 79-12 125 96 86 121 125-3 92-113 125 1"/>
+  </g>
+  <path d="M70 315C130 285 154 158 195 240s77 151 125-87 91 55 125 88 73 151 125 6 88-84 125 5" fill="none" stroke="#297aaf" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <g fill="#ca4e5b">
+    <circle cx="195" cy="240" r="5"/><circle cx="320" cy="153" r="5"/><circle cx="445" cy="241" r="5"/>
+    <circle cx="570" cy="247" r="5"/><circle cx="695" cy="252" r="5"/>
+  </g>
+  <g stroke="#111" stroke-width="3">
+    <path d="M247 196v100M237 196h20M237 296h20"/>
+    <path d="M590 175v149M580 175h20M580 324h20"/>
+  </g>
+  <g font-family="Arial,sans-serif" fill="#333">
+    <text x="288" y="25" font-size="16">Posterior distribution</text>
+    <text x="18" y="237" font-size="15" transform="rotate(-90 18 237)">model response</text>
+    <text x="367" y="452" font-size="15">input space</text>
+    <text x="584" y="63" font-size="12">— mean</text>
+    <text x="584" y="82" font-size="12" fill="#ca4e5b">● evaluated</text>
+  </g>
+</svg>
